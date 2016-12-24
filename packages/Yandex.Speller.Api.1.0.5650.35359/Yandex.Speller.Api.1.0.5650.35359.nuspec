@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Yandex.Speller.Api</id>
+    <version>1.0.5650.35359</version>
+    <title>Yandex.Speller.Api</title>
+    <authors>Georgy Malyshev</authors>
+    <owners>Georgy Malyshev</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/gmalyshev/Yandex.Speller.Api</projectUrl>
+    <iconUrl>http://tech.yandex.ru/favicon.ico</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>C#/.Net wrapper for Yandex.Speller API</description>
+    <summary />
+    <releaseNotes>Release preview.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>Yandex Speller Spellcheck</tags>
+    <dependencies>
+      <dependency id="RestSharpSigned" version="105.0.1" />
+    </dependencies>
+  </metadata>
+</package>

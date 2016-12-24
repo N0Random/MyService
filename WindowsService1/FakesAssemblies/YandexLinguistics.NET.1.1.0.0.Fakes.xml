@@ -1,0 +1,1547 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>YandexLinguistics.NET.1.1.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.ArrayOfSpellResult</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.#ctor(YandexLinguistics.NET.ArrayOfSpellResult)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.Constructor">
+            <summary>Задает оболочка совместимости ArrayOfSpellResult.ArrayOfSpellResult()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.ResultsGet">
+            <summary>Задает оболочка совместимости ArrayOfSpellResult.get_Results()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.ResultsSetListOfSpellResult">
+            <summary>Задает оболочка совместимости ArrayOfSpellResult.set_Results(List`1&lt;SpellResult&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.AllInstances.ResultsGet">
+            <summary>Задает оболочка совместимости ArrayOfSpellResult.get_Results()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimArrayOfSpellResult.AllInstances.ResultsSetListOfSpellResult">
+            <summary>Задает оболочка совместимости ArrayOfSpellResult.set_Results(List`1&lt;SpellResult&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimCompleteResponse">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.CompleteResponse</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimCompleteResponse.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimCompleteResponse.#ctor(YandexLinguistics.NET.CompleteResponse)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimCompleteResponse.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimCompleteResponse.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.Constructor">
+            <summary>Задает оболочка совместимости CompleteResponse.CompleteResponse()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.EndOfWordGet">
+            <summary>Задает оболочка совместимости CompleteResponse.get_EndOfWord()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.EndOfWordSetBoolean">
+            <summary>Задает оболочка совместимости CompleteResponse.set_EndOfWord(Boolean value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.PosGet">
+            <summary>Задает оболочка совместимости CompleteResponse.get_Pos()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.PosSetInt32">
+            <summary>Задает оболочка совместимости CompleteResponse.set_Pos(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.TextGet">
+            <summary>Задает оболочка совместимости CompleteResponse.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.TextSetListOfString">
+            <summary>Задает оболочка совместимости CompleteResponse.set_Text(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimCompleteResponse.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.AllInstances.EndOfWordGet">
+            <summary>Задает оболочка совместимости CompleteResponse.get_EndOfWord()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.AllInstances.EndOfWordSetBoolean">
+            <summary>Задает оболочка совместимости CompleteResponse.set_EndOfWord(Boolean value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.AllInstances.PosGet">
+            <summary>Задает оболочка совместимости CompleteResponse.get_Pos()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.AllInstances.PosSetInt32">
+            <summary>Задает оболочка совместимости CompleteResponse.set_Pos(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.AllInstances.TextGet">
+            <summary>Задает оболочка совместимости CompleteResponse.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimCompleteResponse.AllInstances.TextSetListOfString">
+            <summary>Задает оболочка совместимости CompleteResponse.set_Text(List`1&lt;String&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDef">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Def</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDef.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDef.#ctor(YandexLinguistics.NET.Def)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDef.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDef.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.Constructor">
+            <summary>Задает оболочка совместимости Def.Def()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.PartOfSpeechGet">
+            <summary>Задает оболочка совместимости Def.get_PartOfSpeech()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.PartOfSpeechSetString">
+            <summary>Задает оболочка совместимости Def.set_PartOfSpeech(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.TextGet">
+            <summary>Задает оболочка совместимости Def.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.TextSetString">
+            <summary>Задает оболочка совместимости Def.set_Text(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.ToStringStringBuilderBooleanString">
+            <summary>Задает оболочка совместимости Def.ToString(StringBuilder builder, Boolean formatting, String indent)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.TranscriptionGet">
+            <summary>Задает оболочка совместимости Def.get_Transcription()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.TranscriptionSetString">
+            <summary>Задает оболочка совместимости Def.set_Transcription(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.TranslationsGet">
+            <summary>Задает оболочка совместимости Def.get_Translations()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.TranslationsSetListOfTr">
+            <summary>Задает оболочка совместимости Def.set_Translations(List`1&lt;Tr&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDef.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.PartOfSpeechGet">
+            <summary>Задает оболочка совместимости Def.get_PartOfSpeech()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.PartOfSpeechSetString">
+            <summary>Задает оболочка совместимости Def.set_PartOfSpeech(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.TextGet">
+            <summary>Задает оболочка совместимости Def.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.TextSetString">
+            <summary>Задает оболочка совместимости Def.set_Text(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.ToStringStringBuilderBooleanString">
+            <summary>Задает оболочка совместимости Def.ToString(StringBuilder builder, Boolean formatting, String indent)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.TranscriptionGet">
+            <summary>Задает оболочка совместимости Def.get_Transcription()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.TranscriptionSetString">
+            <summary>Задает оболочка совместимости Def.set_Transcription(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.TranslationsGet">
+            <summary>Задает оболочка совместимости Def.get_Translations()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDef.AllInstances.TranslationsSetListOfTr">
+            <summary>Задает оболочка совместимости Def.set_Translations(List`1&lt;Tr&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDetectedLang">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.DetectedLang</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDetectedLang.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDetectedLang.#ctor(YandexLinguistics.NET.DetectedLang)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDetectedLang.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDetectedLang.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDetectedLang.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDetectedLang.Constructor">
+            <summary>Задает оболочка совместимости DetectedLang.DetectedLang()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDetectedLang.LangGet">
+            <summary>Задает оболочка совместимости DetectedLang.get_Lang()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDetectedLang.LangSetLang">
+            <summary>Задает оболочка совместимости DetectedLang.set_Lang(Lang value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDetectedLang.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDetectedLang.AllInstances.LangGet">
+            <summary>Задает оболочка совместимости DetectedLang.get_Lang()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDetectedLang.AllInstances.LangSetLang">
+            <summary>Задает оболочка совместимости DetectedLang.set_Lang(Lang value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDicResult">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.DicResult</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDicResult.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDicResult.#ctor(YandexLinguistics.NET.DicResult)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDicResult.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDicResult.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.Constructor">
+            <summary>Задает оболочка совместимости DicResult.DicResult()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.DefinitionsGet">
+            <summary>Задает оболочка совместимости DicResult.get_Definitions()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.DefinitionsSetListOfDef">
+            <summary>Задает оболочка совместимости DicResult.set_Definitions(List`1&lt;Def&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.ToString">
+            <summary>Задает оболочка совместимости DicResult.ToString()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.ToStringBooleanString">
+            <summary>Задает оболочка совместимости DicResult.ToString(Boolean formatting, String indent)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDicResult.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.AllInstances.DefinitionsGet">
+            <summary>Задает оболочка совместимости DicResult.get_Definitions()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.AllInstances.DefinitionsSetListOfDef">
+            <summary>Задает оболочка совместимости DicResult.set_Definitions(List`1&lt;Def&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.AllInstances.ToString01">
+            <summary>Задает оболочка совместимости DicResult.ToString()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDicResult.AllInstances.ToStringBooleanString">
+            <summary>Задает оболочка совместимости DicResult.ToString(Boolean formatting, String indent)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDictionary">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Dictionary</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDictionary.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDictionary.#ctor(YandexLinguistics.NET.Dictionary)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDictionary.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimDictionary.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDictionary.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDictionary.ConstructorStringString">
+            <summary>Задает оболочка совместимости Dictionary.Dictionary(String dictionayKey, String baseUrl)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDictionary.GetLangs">
+            <summary>Задает оболочка совместимости Dictionary.GetLangs()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDictionary.LookupLangPairStringStringLookupOptions">
+            <summary>Задает оболочка совместимости Dictionary.Lookup(LangPair lang, String text, String ui, LookupOptions flags)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDictionary._GetLangsb__0String">
+            <summary>Задает оболочка совместимости Dictionary.&lt;GetLangs&gt;b__0(String str)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimDictionary.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDictionary.AllInstances.GetLangs">
+            <summary>Задает оболочка совместимости Dictionary.GetLangs()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimDictionary.AllInstances.LookupLangPairStringStringLookupOptions">
+            <summary>Задает оболочка совместимости Dictionary.Lookup(LangPair lang, String text, String ui, LookupOptions flags)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimError">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Error</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimError.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimError.#ctor(YandexLinguistics.NET.Error)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimError.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimError.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.CodeGet">
+            <summary>Задает оболочка совместимости Error.get_Code()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.CodeSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Code(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.ColumnGet">
+            <summary>Задает оболочка совместимости Error.get_Column()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.ColumnSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Column(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.Constructor">
+            <summary>Задает оболочка совместимости Error.Error()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.LengthGet">
+            <summary>Задает оболочка совместимости Error.get_Length()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.LengthSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Length(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.PositionGet">
+            <summary>Задает оболочка совместимости Error.get_Position()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.PositionSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Position(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.RowGet">
+            <summary>Задает оболочка совместимости Error.get_Row()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.RowSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Row(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.SteerGet">
+            <summary>Задает оболочка совместимости Error.get_Steer()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.SteerSetString">
+            <summary>Задает оболочка совместимости Error.set_Steer(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.WordGet">
+            <summary>Задает оболочка совместимости Error.get_Word()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.WordSetString">
+            <summary>Задает оболочка совместимости Error.set_Word(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimError.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.CodeGet">
+            <summary>Задает оболочка совместимости Error.get_Code()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.CodeSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Code(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.ColumnGet">
+            <summary>Задает оболочка совместимости Error.get_Column()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.ColumnSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Column(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.LengthGet">
+            <summary>Задает оболочка совместимости Error.get_Length()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.LengthSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Length(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.PositionGet">
+            <summary>Задает оболочка совместимости Error.get_Position()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.PositionSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Position(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.RowGet">
+            <summary>Задает оболочка совместимости Error.get_Row()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.RowSetInt32">
+            <summary>Задает оболочка совместимости Error.set_Row(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.SteerGet">
+            <summary>Задает оболочка совместимости Error.get_Steer()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.SteerSetString">
+            <summary>Задает оболочка совместимости Error.set_Steer(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.WordGet">
+            <summary>Задает оболочка совместимости Error.get_Word()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimError.AllInstances.WordSetString">
+            <summary>Задает оболочка совместимости Error.set_Word(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimEx">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Ex</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimEx.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimEx.#ctor(YandexLinguistics.NET.Ex)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimEx.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimEx.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.Constructor">
+            <summary>Задает оболочка совместимости Ex.Ex()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.TextGet">
+            <summary>Задает оболочка совместимости Ex.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.TextSetString">
+            <summary>Задает оболочка совместимости Ex.set_Text(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.ToStringStringBuilderInt32BooleanString">
+            <summary>Задает оболочка совместимости Ex.ToString(StringBuilder builder, Int32 level, Boolean formatting, String indent)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.TranslationsGet">
+            <summary>Задает оболочка совместимости Ex.get_Translations()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.TranslationsSetListOfTr">
+            <summary>Задает оболочка совместимости Ex.set_Translations(List`1&lt;Tr&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimEx.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.AllInstances.TextGet">
+            <summary>Задает оболочка совместимости Ex.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.AllInstances.TextSetString">
+            <summary>Задает оболочка совместимости Ex.set_Text(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.AllInstances.ToStringStringBuilderInt32BooleanString">
+            <summary>Задает оболочка совместимости Ex.ToString(StringBuilder builder, Int32 level, Boolean formatting, String indent)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.AllInstances.TranslationsGet">
+            <summary>Задает оболочка совместимости Ex.get_Translations()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimEx.AllInstances.TranslationsSetListOfTr">
+            <summary>Задает оболочка совместимости Ex.set_Translations(List`1&lt;Tr&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimInflection">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Inflection</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflection.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflection.#ctor(YandexLinguistics.NET.Inflection)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflection.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflection.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.CaseGet">
+            <summary>Задает оболочка совместимости Inflection.get_Case()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.CaseSetInflectionCase">
+            <summary>Задает оболочка совместимости Inflection.set_Case(InflectionCase value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.Constructor">
+            <summary>Задает оболочка совместимости Inflection.Inflection()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.ValueGet">
+            <summary>Задает оболочка совместимости Inflection.get_Value()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.ValueSetString">
+            <summary>Задает оболочка совместимости Inflection.set_Value(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimInflection.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.AllInstances.CaseGet">
+            <summary>Задает оболочка совместимости Inflection.get_Case()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.AllInstances.CaseSetInflectionCase">
+            <summary>Задает оболочка совместимости Inflection.set_Case(InflectionCase value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.AllInstances.ValueGet">
+            <summary>Задает оболочка совместимости Inflection.get_Value()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflection.AllInstances.ValueSetString">
+            <summary>Задает оболочка совместимости Inflection.set_Value(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimInflector">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Inflector</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflector.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflector.#ctor(YandexLinguistics.NET.Inflector)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflector.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimInflector.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflector.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflector.ConstructorString">
+            <summary>Задает оболочка совместимости Inflector.Inflector(String baseUrl)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflector.GetInflectionsString">
+            <summary>Задает оболочка совместимости Inflector.GetInflections(String text)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimInflector.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimInflector.AllInstances.GetInflectionsString">
+            <summary>Задает оболочка совместимости Inflector.GetInflections(String text)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimLangPair">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.LangPair</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimLangPair.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimLangPair.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimLangPair.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimLangPair.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimLangPair.StaticConstructor">
+            <summary>Задает оболочка совместимости LangPair.LangPair()</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimLangPair.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimMean">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Mean</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimMean.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimMean.#ctor(YandexLinguistics.NET.Mean)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimMean.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimMean.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimMean.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimMean.Constructor">
+            <summary>Задает оболочка совместимости Mean.Mean()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimMean.TextGet">
+            <summary>Задает оболочка совместимости Mean.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimMean.TextSetString">
+            <summary>Задает оболочка совместимости Mean.set_Text(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimMean.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimMean.AllInstances.TextGet">
+            <summary>Задает оболочка совместимости Mean.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimMean.AllInstances.TextSetString">
+            <summary>Задает оболочка совместимости Mean.set_Text(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimMistake">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Mistake</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimMistake.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimMistake.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimMistake.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimMistake.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimMistake.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimPredictor">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Predictor</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimPredictor.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimPredictor.#ctor(YandexLinguistics.NET.Predictor)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimPredictor.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimPredictor.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimPredictor.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimPredictor.CompleteLangStringInt32">
+            <summary>Задает оболочка совместимости Predictor.Complete(Lang lang, String q, Int32 limit)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimPredictor.ConstructorStringString">
+            <summary>Задает оболочка совместимости Predictor.Predictor(String predictorKey, String baseUrl)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimPredictor.GetLangs">
+            <summary>Задает оболочка совместимости Predictor.GetLangs()</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimPredictor.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimPredictor.AllInstances.CompleteLangStringInt32">
+            <summary>Задает оболочка совместимости Predictor.Complete(Lang lang, String q, Int32 limit)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimPredictor.AllInstances.GetLangs">
+            <summary>Задает оболочка совместимости Predictor.GetLangs()</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimSpellResult">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.SpellResult</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpellResult.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpellResult.#ctor(YandexLinguistics.NET.SpellResult)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpellResult.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpellResult.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpellResult.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpellResult.Constructor">
+            <summary>Задает оболочка совместимости SpellResult.SpellResult()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpellResult.ErrorsGet">
+            <summary>Задает оболочка совместимости SpellResult.get_Errors()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpellResult.ErrorsSetListOfError">
+            <summary>Задает оболочка совместимости SpellResult.set_Errors(List`1&lt;Error&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimSpellResult.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpellResult.AllInstances.ErrorsGet">
+            <summary>Задает оболочка совместимости SpellResult.get_Errors()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpellResult.AllInstances.ErrorsSetListOfError">
+            <summary>Задает оболочка совместимости SpellResult.set_Errors(List`1&lt;Error&gt; value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimSpeller">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Speller</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpeller.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpeller.#ctor(YandexLinguistics.NET.Speller)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpeller.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSpeller.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller.CheckTextStringLangArrayNullableOfSpellerOptionsNullableOfOutputFormat">
+            <summary>Задает оболочка совместимости Speller.CheckText(String text, Lang[] lang, Nullable`1&lt;SpellerOptions&gt; options, Nullable`1&lt;OutputFormat&gt; format)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller.CheckTextsStringArrayLangArrayNullableOfSpellerOptionsNullableOfOutputFormat">
+            <summary>Задает оболочка совместимости Speller.CheckTexts(String[] texts, Lang[] lang, Nullable`1&lt;SpellerOptions&gt; options, Nullable`1&lt;OutputFormat&gt; format)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller.ConstructorString">
+            <summary>Задает оболочка совместимости Speller.Speller(String baseUrl)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller.OptimalStringAlignmentDistanceStringStringBooleanInt32Int32Int32Int32">
+            <summary>Задает оболочка совместимости Speller.OptimalStringAlignmentDistance(String word, String correctedWord, Boolean transposition, Int32 substitutionCost, Int32 insertionCost, Int32 deletionCost, Int32 transpositionCost)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller._CheckTextb__0Lang">
+            <summary>Задает оболочка совместимости Speller.&lt;CheckText&gt;b__0(Lang l)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimSpeller.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller.AllInstances.CheckTextStringLangArrayNullableOfSpellerOptionsNullableOfOutputFormat">
+            <summary>Задает оболочка совместимости Speller.CheckText(String text, Lang[] lang, Nullable`1&lt;SpellerOptions&gt; options, Nullable`1&lt;OutputFormat&gt; format)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSpeller.AllInstances.CheckTextsStringArrayLangArrayNullableOfSpellerOptionsNullableOfOutputFormat">
+            <summary>Задает оболочка совместимости Speller.CheckTexts(String[] texts, Lang[] lang, Nullable`1&lt;SpellerOptions&gt; options, Nullable`1&lt;OutputFormat&gt; format)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimSyn">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Syn</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSyn.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSyn.#ctor(YandexLinguistics.NET.Syn)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSyn.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimSyn.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSyn.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSyn.Constructor">
+            <summary>Задает оболочка совместимости Syn.Syn()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSyn.TextGet">
+            <summary>Задает оболочка совместимости Syn.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSyn.TextSetString">
+            <summary>Задает оболочка совместимости Syn.set_Text(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimSyn.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSyn.AllInstances.TextGet">
+            <summary>Задает оболочка совместимости Syn.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimSyn.AllInstances.TextSetString">
+            <summary>Задает оболочка совместимости Syn.set_Text(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimTr">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Tr</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTr.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTr.#ctor(YandexLinguistics.NET.Tr)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTr.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTr.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.Constructor">
+            <summary>Задает оболочка совместимости Tr.Tr()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.ExamplesGet">
+            <summary>Задает оболочка совместимости Tr.get_Examples()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.ExamplesSetListOfEx">
+            <summary>Задает оболочка совместимости Tr.set_Examples(List`1&lt;Ex&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.MeaningsGet">
+            <summary>Задает оболочка совместимости Tr.get_Meanings()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.MeaningsSetListOfMean">
+            <summary>Задает оболочка совместимости Tr.set_Meanings(List`1&lt;Mean&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.PartOfSpeechGet">
+            <summary>Задает оболочка совместимости Tr.get_PartOfSpeech()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.PartOfSpeechSetString">
+            <summary>Задает оболочка совместимости Tr.set_PartOfSpeech(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.SynonymsGet">
+            <summary>Задает оболочка совместимости Tr.get_Synonyms()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.SynonymsSetListOfSyn">
+            <summary>Задает оболочка совместимости Tr.set_Synonyms(List`1&lt;Syn&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.TextGet">
+            <summary>Задает оболочка совместимости Tr.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.TextSetString">
+            <summary>Задает оболочка совместимости Tr.set_Text(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.ToStringStringBuilderInt32BooleanString">
+            <summary>Задает оболочка совместимости Tr.ToString(StringBuilder builder, Int32 level, Boolean formatting, String indent)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimTr.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.ExamplesGet">
+            <summary>Задает оболочка совместимости Tr.get_Examples()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.ExamplesSetListOfEx">
+            <summary>Задает оболочка совместимости Tr.set_Examples(List`1&lt;Ex&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.MeaningsGet">
+            <summary>Задает оболочка совместимости Tr.get_Meanings()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.MeaningsSetListOfMean">
+            <summary>Задает оболочка совместимости Tr.set_Meanings(List`1&lt;Mean&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.PartOfSpeechGet">
+            <summary>Задает оболочка совместимости Tr.get_PartOfSpeech()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.PartOfSpeechSetString">
+            <summary>Задает оболочка совместимости Tr.set_PartOfSpeech(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.SynonymsGet">
+            <summary>Задает оболочка совместимости Tr.get_Synonyms()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.SynonymsSetListOfSyn">
+            <summary>Задает оболочка совместимости Tr.set_Synonyms(List`1&lt;Syn&gt; value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.TextGet">
+            <summary>Задает оболочка совместимости Tr.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.TextSetString">
+            <summary>Задает оболочка совместимости Tr.set_Text(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTr.AllInstances.ToStringStringBuilderInt32BooleanString">
+            <summary>Задает оболочка совместимости Tr.ToString(StringBuilder builder, Int32 level, Boolean formatting, String indent)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimTranslation">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Translation</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslation.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslation.#ctor(YandexLinguistics.NET.Translation)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslation.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslation.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.CodeGet">
+            <summary>Задает оболочка совместимости Translation.get_Code()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.CodeSetInt32">
+            <summary>Задает оболочка совместимости Translation.set_Code(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.Constructor">
+            <summary>Задает оболочка совместимости Translation.Translation()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.DetectedGet">
+            <summary>Задает оболочка совместимости Translation.get_Detected()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.DetectedSetDetectedLang">
+            <summary>Задает оболочка совместимости Translation.set_Detected(DetectedLang value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.LangPairGet">
+            <summary>Задает оболочка совместимости Translation.get_LangPair()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.LangPairSetLangPair">
+            <summary>Задает оболочка совместимости Translation.set_LangPair(LangPair value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.LangPairStringGet">
+            <summary>Задает оболочка совместимости Translation.get_LangPairString()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.LangPairStringSetString">
+            <summary>Задает оболочка совместимости Translation.set_LangPairString(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.TextGet">
+            <summary>Задает оболочка совместимости Translation.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.TextSetString">
+            <summary>Задает оболочка совместимости Translation.set_Text(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.CodeGet">
+            <summary>Задает оболочка совместимости Translation.get_Code()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.CodeSetInt32">
+            <summary>Задает оболочка совместимости Translation.set_Code(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.DetectedGet">
+            <summary>Задает оболочка совместимости Translation.get_Detected()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.DetectedSetDetectedLang">
+            <summary>Задает оболочка совместимости Translation.set_Detected(DetectedLang value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.LangPairGet">
+            <summary>Задает оболочка совместимости Translation.get_LangPair()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.LangPairSetLangPair">
+            <summary>Задает оболочка совместимости Translation.set_LangPair(LangPair value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.LangPairStringGet">
+            <summary>Задает оболочка совместимости Translation.get_LangPairString()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.LangPairStringSetString">
+            <summary>Задает оболочка совместимости Translation.set_LangPairString(String value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.TextGet">
+            <summary>Задает оболочка совместимости Translation.get_Text()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslation.AllInstances.TextSetString">
+            <summary>Задает оболочка совместимости Translation.set_Text(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimTranslator">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.Translator</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslator.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslator.#ctor(YandexLinguistics.NET.Translator)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslator.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimTranslator.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.ConstructorStringString">
+            <summary>Задает оболочка совместимости Translator.Translator(String translatorKey, String baseUrl)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.DetectLangString">
+            <summary>Задает оболочка совместимости Translator.DetectLang(String text)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.GetLangs">
+            <summary>Задает оболочка совместимости Translator.GetLangs()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.TranslateStringLangPairNullableOfOutputFormatBoolean">
+            <summary>Задает оболочка совместимости Translator.Translate(String text, LangPair lang, Nullable`1&lt;OutputFormat&gt; format, Boolean options)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator._GetLangsb__0String">
+            <summary>Задает оболочка совместимости Translator.&lt;GetLangs&gt;b__0(String str)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimTranslator.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.AllInstances.DetectLangString">
+            <summary>Задает оболочка совместимости Translator.DetectLang(String text)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.AllInstances.GetLangs">
+            <summary>Задает оболочка совместимости Translator.GetLangs()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimTranslator.AllInstances.TranslateStringLangPairNullableOfOutputFormatBoolean">
+            <summary>Задает оболочка совместимости Translator.Translate(String text, LangPair lang, Nullable`1&lt;OutputFormat&gt; format, Boolean options)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimYandexError">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.YandexError</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexError.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexError.#ctor(YandexLinguistics.NET.YandexError)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexError.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexError.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.CodeGet">
+            <summary>Задает оболочка совместимости YandexError.get_Code()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.CodeSetInt32">
+            <summary>Задает оболочка совместимости YandexError.set_Code(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.Constructor">
+            <summary>Задает оболочка совместимости YandexError.YandexError()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.MessageGet">
+            <summary>Задает оболочка совместимости YandexError.get_Message()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.MessageSetString">
+            <summary>Задает оболочка совместимости YandexError.set_Message(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimYandexError.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.AllInstances.CodeGet">
+            <summary>Задает оболочка совместимости YandexError.get_Code()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.AllInstances.CodeSetInt32">
+            <summary>Задает оболочка совместимости YandexError.set_Code(Int32 value)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.AllInstances.MessageGet">
+            <summary>Задает оболочка совместимости YandexError.get_Message()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexError.AllInstances.MessageSetString">
+            <summary>Задает оболочка совместимости YandexError.set_Message(String value)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.YandexLinguisticsException</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.#ctor(YandexLinguistics.NET.YandexLinguisticsException)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.ConstructorInt32String">
+            <summary>Задает оболочка совместимости YandexLinguisticsException.YandexLinguisticsException(Int32 code, String message)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.ConstructorYandexError">
+            <summary>Задает оболочка совместимости YandexLinguisticsException.YandexLinguisticsException(YandexError error)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.ToString">
+            <summary>Задает оболочка совместимости YandexLinguisticsException.ToString()</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexLinguisticsException.AllInstances.ToString01">
+            <summary>Задает оболочка совместимости YandexLinguisticsException.ToString()</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimYandexService">
+            <summary>Тип оболочки совместимости для YandexLinguistics.NET.YandexService</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexService.#ctor(YandexLinguistics.NET.YandexService)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexService.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexService.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexService.SendRequestOf1RestRequest``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{RestSharp.RestRequest,``0})">
+            <summary>Задает оболочка совместимости YandexService.SendRequest(RestRequest request)</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexService.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.ShimYandexService.ConstructorStringString">
+            <summary>Задает оболочка совместимости YandexService.YandexService(String key, String baseUrl)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.ShimYandexService.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.ShimYandexService.AllInstances.SendRequestOf1RestRequest``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{YandexLinguistics.NET.YandexService,RestSharp.RestRequest,``0})">
+            <summary>Задает оболочка совместимости YandexService.SendRequest(RestRequest request)</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubArrayOfSpellResult">
+            <summary>Тип заглушки YandexLinguistics.NET.ArrayOfSpellResult</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubArrayOfSpellResult.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubArrayOfSpellResult.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubArrayOfSpellResult</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubArrayOfSpellResult.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubArrayOfSpellResult.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubArrayOfSpellResult.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubCompleteResponse">
+            <summary>Тип заглушки YandexLinguistics.NET.CompleteResponse</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubCompleteResponse.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubCompleteResponse.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubCompleteResponse</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubCompleteResponse.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubCompleteResponse.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubCompleteResponse.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubDef">
+            <summary>Тип заглушки YandexLinguistics.NET.Def</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDef.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDef.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDef</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDef.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDef.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDef.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubDetectedLang">
+            <summary>Тип заглушки YandexLinguistics.NET.DetectedLang</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDetectedLang.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDetectedLang.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDetectedLang</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDetectedLang.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDetectedLang.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDetectedLang.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubDicResult">
+            <summary>Тип заглушки YandexLinguistics.NET.DicResult</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDicResult.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDicResult.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDicResult</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDicResult.ToString">
+            <summary>Задает заглушка DicResult.ToString()</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubDicResult.ToString01">
+            <summary>Задает stub DicResult.ToString()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDicResult.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDicResult.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDicResult.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubDictionary">
+            <summary>Тип заглушки YandexLinguistics.NET.Dictionary</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDictionary.#ctor(System.String,System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubDictionary.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDictionary</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDictionary.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDictionary.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubDictionary.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubError">
+            <summary>Тип заглушки YandexLinguistics.NET.Error</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubError.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubError.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubError</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubError.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubError.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubError.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubEx">
+            <summary>Тип заглушки YandexLinguistics.NET.Ex</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubEx.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubEx.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubEx</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubEx.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubEx.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubEx.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubInflection">
+            <summary>Тип заглушки YandexLinguistics.NET.Inflection</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubInflection.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubInflection.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubInflection</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubInflection.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubInflection.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubInflection.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubInflector">
+            <summary>Тип заглушки YandexLinguistics.NET.Inflector</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubInflector.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubInflector.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubInflector</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubInflector.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubInflector.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubInflector.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubMean">
+            <summary>Тип заглушки YandexLinguistics.NET.Mean</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubMean.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubMean.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubMean</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubMean.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubMean.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubMean.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubPredictor">
+            <summary>Тип заглушки YandexLinguistics.NET.Predictor</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubPredictor.#ctor(System.String,System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubPredictor.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubPredictor</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubPredictor.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubPredictor.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubPredictor.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubSpellResult">
+            <summary>Тип заглушки YandexLinguistics.NET.SpellResult</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubSpellResult.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubSpellResult.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubSpellResult</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSpellResult.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSpellResult.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSpellResult.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubSpeller">
+            <summary>Тип заглушки YandexLinguistics.NET.Speller</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubSpeller.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubSpeller.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubSpeller</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSpeller.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSpeller.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSpeller.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubSyn">
+            <summary>Тип заглушки YandexLinguistics.NET.Syn</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubSyn.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubSyn.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubSyn</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSyn.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSyn.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubSyn.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubTr">
+            <summary>Тип заглушки YandexLinguistics.NET.Tr</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubTr.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubTr.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubTr</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTr.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTr.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTr.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubTranslation">
+            <summary>Тип заглушки YandexLinguistics.NET.Translation</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubTranslation.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubTranslation.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubTranslation</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTranslation.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTranslation.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTranslation.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubTranslator">
+            <summary>Тип заглушки YandexLinguistics.NET.Translator</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubTranslator.#ctor(System.String,System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubTranslator.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubTranslator</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTranslator.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTranslator.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubTranslator.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubYandexError">
+            <summary>Тип заглушки YandexLinguistics.NET.YandexError</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexError.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexError.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubYandexError</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexError.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexError.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexError.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException">
+            <summary>Тип заглушки YandexLinguistics.NET.YandexLinguisticsException</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.#ctor(YandexLinguistics.NET.YandexError)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.#ctor(System.Int32,System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.AttachBackingFieldToHelpLink">
+            <summary>Присоединение делегатов для эмуляции StubYandexLinguisticsException.HelpLink как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.AttachBackingFieldToSource">
+            <summary>Присоединение делегатов для эмуляции StubYandexLinguisticsException.Source как свойства с резервным полем.</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.DataGet">
+            <summary>Задает stub Exception.get_Data()</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.GetBaseException">
+            <summary>Задает заглушка Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.GetBaseException01">
+            <summary>Задает stub Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Задает заглушка Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Задает stub Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.HelpLinkGet">
+            <summary>Задает stub Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.HelpLinkSetString">
+            <summary>Задает stub Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubYandexLinguisticsException</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.MessageGet">
+            <summary>Задает stub Exception.get_Message()</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.SourceGet">
+            <summary>Задает stub Exception.get_Source()</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.SourceSetString">
+            <summary>Задает stub Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.StackTraceGet">
+            <summary>Задает stub Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.ToString">
+            <summary>Задает заглушка YandexLinguisticsException.ToString()</summary>
+        </member>
+        <member name="F:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.ToString01">
+            <summary>Задает stub YandexLinguisticsException.ToString()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.Data">
+            <summary>Задает stub Exception.get_Data()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.HelpLink">
+            <summary>Задает stub Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.Message">
+            <summary>Задает stub Exception.get_Message()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.Source">
+            <summary>Задает stub Exception.get_Source()</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexLinguisticsException.StackTrace">
+            <summary>Задает stub Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:YandexLinguistics.NET.Fakes.StubYandexService">
+            <summary>Тип заглушки YandexLinguistics.NET.YandexService</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexService.#ctor(System.String,System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:YandexLinguistics.NET.Fakes.StubYandexService.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubYandexService</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexService.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexService.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:YandexLinguistics.NET.Fakes.StubYandexService.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+    </members>
+</doc>
