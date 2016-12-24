@@ -22,6 +22,6 @@ C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\Wi
 C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\WindowsService1\bin\Debug\YandexLinguistics.NET.dll
 C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\WindowsService1\bin\Debug\RestSharp.xml
 C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\WindowsService1\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll
-C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\WindowsService1\obj\Debug\WindowsService1.csprojFakesResolveAssemblyReference.cache
 C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\WindowsService1\obj\Debug\WindowsService1.Service1.resources
 C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\WindowsService1\obj\Debug\WindowsService1.csproj.GenerateResource.Cache
+C:\Users\Brom\Documents\Visual Studio 2013\Projects\WindowsService1\MyService\WindowsService1\obj\Debug\WindowsService1.csprojFakesResolveAssemblyReference.cache

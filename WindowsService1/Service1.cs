@@ -11,28 +11,42 @@ using System.Threading.Tasks;
 
 namespace WindowsService1
 {
+   
     public partial class Service1 : ServiceBase
 
     {
-        ServLisener l; 
+       static ServLisener l;
+        Thread ls;
         public Service1()
         {
             InitializeComponent();
             l = new ServLisener();
+            this.CanPauseAndContinue = true;
+
         }
 
         protected override void OnStart(string[] args)
         {
-            Thread ls;
+
            
            ls =new Thread(new ThreadStart(l.start));
            ls.Start();
+          
         }
 
+        protected override void OnContinue()
+        {
+            ls.Resume();
+        }
+        protected override void OnPause()
+        {
+            ls.Suspend();
+            
+        }
         protected override void OnStop()
         {
-            Thread.Sleep(1000);
             l.stop();
+            
 
         }
     }

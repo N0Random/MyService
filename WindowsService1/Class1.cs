@@ -7,7 +7,13 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using YandexLinguistics.NET;
-
+/*!
+* @file	Class1.cs
+* @class   ServLisener
+* @brief   Класс поддерживающий соединение
+* @author	NoRandom
+* @date	24 дек. 2016 г
+   !*/
 namespace WindowsService1
 
 {
@@ -15,14 +21,17 @@ namespace WindowsService1
     class ServLisener
     {
         private Int32 _port;
+        /// Переменная для прослушки порта 9999 по адрессу 127.0.0.1
         public TcpListener tcpServer ;
+        bool done;
        public ServLisener()
        {
           
        }
+       /// Функция стартующая при запуске службы
        public void start() 
        {
-           bool done = false;
+           done = false;
 
            TcpListener tcpServer = new TcpListener(9999);
 
@@ -76,17 +85,20 @@ namespace WindowsService1
                }
            }
        }
+        
        public void stop() {
-   
+           done = true;
        }
 
 
     }
+    /// @class Translator
     class Translator 
     {
        
         YandexLinguistics.NET.Translator tr;
         LangPair lp;
+        /// токен для использования API
         const string trKey = "trnsl.1.1.20161223T220940Z.1f287d777aaa8b28.187c39ec9f9a8d777bfbfb1b18eb5fc0a989bbfd";
         public Translator(string i, string o)
         {
